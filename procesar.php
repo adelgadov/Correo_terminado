@@ -7,7 +7,6 @@ $archivo = $_FILES["adjunto"]["name"];
 $curso = $_POST['curso'];
 $correo = $_POST['correo'];
 $seleccion = $_POST['seleccion'];
-$correos_originales = array("@hotmail.com", "@hotmail.es", "@gmail.es", "@gmail.com", "@outlook.com", "@outlook.es", "@mail.com", "@ya.com", "@ya.es", "@ya.com", "@terra.com", "@terra.es");
 
 $saneartexto = new saneartexto();
 
@@ -26,7 +25,7 @@ break;
 
     case ('Correos'):
 
-        $tabla = $saneartexto -> descarga_correos($leer_csv, $correos_originales, $correo);
+        $tabla = $saneartexto -> descarga_correos($leer_csv, $correo, $saneartexto);
 break;
 
     case ('Mostrar'):
