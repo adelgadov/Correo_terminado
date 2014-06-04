@@ -96,6 +96,7 @@ class saneartexto {
     public function tabla_saneada($archivo,$saneartexto, $curso, $correos_originales, $correo, $i = 0, $b = 0) {
 
         echo '<link rel="stylesheet" type="text/css" href="estilos/estilo.css" />';
+        echo '<title>Vista Previa</title>';
 
 //Hacemos cuadrar la tabla.
 
