@@ -21,6 +21,8 @@ $upload = new upload();
 $subir_archivo = $upload -> upload_file();
 $leer_csv = $upload -> csv_to_array("adjuntos/".$archivo);
 
+//Borra el documento que hemos subido una vez lo hemos almacenado en un array.
+unlink('adjuntos/'.$archivo);
 
 $ejecutor = new ejecutor();
 
