@@ -5,7 +5,7 @@ Funciones:
 
   - Subes archivo csv.
   - Comprueba si la carpeta en la cual se tiene que descargar dicho archivo en el servidor está creada o no, si no lo está la crea.
-  - Sube el archivo y lo lee.
+  - Sube el archivo, lo almacena en el array y lo borra.
   - Hay tres opciones:
       - Moodle: Te descarga el archivo tradado para poder importar usuarios nuevos al Moodle.
       - Correo: Te genera un fichero email;password para poder importarlo a un servidor de correo.
