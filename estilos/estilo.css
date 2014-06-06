@@ -1,0 +1,82 @@
+body {
+    background-image: url(body_bg.png);
+    padding: 60px;
+}
+
+.table_a_tittle {
+    position:absolute;
+    left: 30%;
+    top:1%;
+}
+
+.table_mostrar_a {
+     position: absolute;
+     left: 10%;
+     border-collapse: collapse;
+     background-image: url("body_bg.png");
+ }
+
+.table_b_tittle {
+    position:absolute;
+    left: 68%;
+    top:1%;
+}
+
+.table_mostrar_b {
+    position: absolute;
+    left: 65%;
+    border-collapse: collapse;
+    background-image: url("body_bg.png");
+}
+
+.table_index {
+    position: absolute;
+    left: 15%;
+
+}
+
+
+select {
+
+    font-size: 16;
+}
+tr:nth-child(odd) { background-color:#D2EAE8; }
+
+tr:nth-of-type(odd) { background-color:#FFFFFF; }
+
+tr:nth-of-type(even) { background-color:#D2EAE8; }
+
+td {
+
+    padding: 5px;
+}
+.td_index {
+    background-image: url("body_bg.png");
+    align: center;
+    font-size: 17;
+}
+th {
+    background-image: url("body_bg.png");
+}
+
+.botom {
+    margin: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(81%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(226,226,226,1) 81%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(226,226,226,1) 81%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(226,226,226,1) 81%); /* IE10+ */
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    font-family:Verdana,Helvetica;
+    cursor:pointer;
+    font-size: 16;
+}
+.botom:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(81%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(226,226,226,1) 81%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(226,226,226,1) 81%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(226,226,226,1) 81%); /* IE10+ */
+}
+
+

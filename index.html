@@ -1,37 +1,32 @@
 <html>
-    <Head>
-        <title>Correos</title>
-        <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+<Head>
+    <title>Correos</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
 
-    </Head>
-    <body>
-        <table class="table_index">
-            <form method="post" action="procesar.php" enctype="multipart/form-data" target=”_blank”>
+</Head>
+<body>
+<table class="table_index">
+    <form method="post" action="procesar.php" enctype="multipart/form-data" target=”_blank”>
 
-            <tr>
-                <td class="td_index"><center><b>Adjuntar archivo</b></center><br>
-                    <input type="file" name="adjunto"/></td>
+        <tr>
+            <td class="td_index"><center><b>Adjuntar archivo</b></center><br>
+                <input type="file" name="adjunto"/></td>
 
-                <td class="td_index"><center><b>Nombre del curso</b></center><br>
-                    <input type="text" name="curso"> </td>
+            <td class="td_index"><center><b>Nombre del curso</b></center><br>
+                <input type="text" name="curso"> </td>
 
-                <td class="td_index"><center><b>Tipo de correo</b></center><br>
-                    <select name="correo">
+            <td class="td_index"><center><b>Tipo de correo</b></center><br>
+                <select name="correo">
                     <option>@cesma.es</option>
                     <option>@alu.cesma.es</option></select></td>
 
 
-                <td class="td_index"><input type="submit" value="Moodle" name="seleccion" class="botom"><br>
-                    <input type="submit" value="Correos" name="seleccion" class="botom"><br>
-                    <input type="submit"  value="Mostrar" name="seleccion" class="botom"></td>
-            </tr>
-            </form>
-        </table>
+            <td class="td_index"><input type="submit" value="Moodle" name="seleccion" class="botom"><br>
+                <input type="submit" value="Correos" name="seleccion" class="botom"><br>
+                <input type="submit"  value="Mostrar" name="seleccion" class="botom"></td>
+        </tr>
+    </form>
+</table>
 
-        <style type="text/css">
-
-        </style>
-
-
-    </body>
+</body>
 </html>
